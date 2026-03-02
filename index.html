@@ -4,22 +4,91 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chris Ruggieri Resume</title>
-  <link rel="stylesheet" href="styles.css">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+      font-size: 2.2rem;
+      color: #003366;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #003366;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 5px;
+      text-align: left;
+    }
+
+    p {
+      font-size: 1rem;
+    }
+
+    ul {
+      text-align: left;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    img {
+      width: 160px;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 4px solid #003366;
+      margin-bottom: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 25px;
+      }
+    }
+  </style>
 </head>
 
 <body>
+
   <div class="container">
+
+    <!-- This now matches your file exactly -->
+    <img src="profile.jpeg" alt="Chris Ruggieri">
+
     <h1>Chris Ruggieri</h1>
-    <p>Health Science Major | Resume Website</p>
+    <p><strong>Health Science Major | Resume Website</strong></p>
 
     <h2>About Me</h2>
-    <p>I am a Health Science student interested in internships and healthcare careers.</p>
+    <p>
+      I am a Health Science student at the University of Miami interested in internships,
+      clinical experience, and healthcare careers focused on helping others.
+    </p>
 
     <h2>Experience</h2>
     <ul>
-      <li>Student Researcher – Bascom Palmer Eye Institute</li>
-      <li>Student Referee – Basketball & Soccer</li>
-      <li>Honors Program Mentor</li>
+      <li><strong>Student Researcher</strong> – Bascom Palmer Eye Institute</li>
+      <li><strong>Student Referee</strong> – Basketball & Soccer</li>
+      <li><strong>Honors Program Mentor</strong></li>
     </ul>
 
     <h2>Skills</h2>
@@ -28,6 +97,7 @@
       <li>Teamwork</li>
       <li>HTML & CSS</li>
     </ul>
+
   </div>
 
 </body>
